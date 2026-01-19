@@ -6,7 +6,7 @@
 set -e
 
 PREV_TAG="${1:-$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null)}"
-REPO_URL="https://github.com/wernerglinka/eleventy-plugin-bundled-components"
+REPO_URL="https://github.com/wernerglinka/eleventy-plugin-components-bundler"
 
 # Fallback for first release if no previous tag exists
 if [ -z "$PREV_TAG" ]; then

@@ -1,6 +1,6 @@
 {
-  "name": "eleventy-plugin-bundled-components",
-  "version": "1.0.0",
+  "name": "eleventy-plugin-components-bundler",
+  "version": "0.0.1",
   "description": "Eleventy plugin for component-based architecture with tree-shaken CSS/JS bundling",
   "type": "module",
   "main": "index.js",
@@ -34,7 +34,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wernerglinka/eleventy-plugin-bundled-components.git"
+    "url": "git+https://github.com/wernerglinka/eleventy-plugin-components-bundler.git"
   },
   "peerDependencies": {
     "@11ty/eleventy": "^2.0.0 || ^3.0.0"

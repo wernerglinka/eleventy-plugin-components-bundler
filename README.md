@@ -1,14 +1,14 @@
-# eleventy-plugin-bundled-components
+# eleventy-plugin-components-bundler
 
-> **Early Development Notice:** This plugin is under active development. The API may change before reaching v1.0.0. Please report issues and feedback on [GitHub](https://github.com/wernerglinka/eleventy-plugin-bundled-components/issues).
+> **Early Development Notice:** This plugin is under active development. The API may change before reaching v1.0.0. Please report issues and feedback on [GitHub](https://github.com/wernerglinka/eleventy-plugin-components-bundler/issues).
 
 An Eleventy plugin that automatically discovers and bundles CSS and JavaScript files from component-based architectures using esbuild
 
 [![npm: version][npm-badge]][npm-url]
 [![license: MIT][license-badge]][license-url]
 [![coverage][coverage-badge]][coverage-url]
-[![Known Vulnerabilities](https://snyk.io/test/npm/eleventy-plugin-bundled-components/badge.svg)](https://snyk.io/test/npm/eleventy-plugin-bundled-components)
-[![AI-assisted development](https://img.shields.io/badge/AI-assisted-blue)](https://github.com/wernerglinka/eleventy-plugin-bundled-components/blob/main/CLAUDE.md)
+[![Known Vulnerabilities](https://snyk.io/test/npm/eleventy-plugin-components-bundler/badge.svg)](https://snyk.io/test/npm/eleventy-plugin-components-bundler)
+[![AI-assisted development](https://img.shields.io/badge/AI-assisted-blue)](https://github.com/wernerglinka/eleventy-plugin-components-bundler/blob/main/CLAUDE.md)
 
 ## Features
 
@@ -29,18 +29,18 @@ An Eleventy plugin that automatically discovers and bundles CSS and JavaScript f
 ## Installation
 
 ```bash
-npm install eleventy-plugin-bundled-components
+npm install eleventy-plugin-components-bundler
 ```
 
 ## Usage
 
-Add `eleventy-plugin-bundled-components` to your Eleventy configuration:
+Add `eleventy-plugin-components-bundler` to your Eleventy configuration:
 
 ### Basic Usage
 
 ```js
 // eleventy.config.js
-import bundledComponents from 'eleventy-plugin-bundled-components';
+import bundledComponents from 'eleventy-plugin-components-bundler';
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(bundledComponents);
@@ -64,7 +64,7 @@ export default function (eleventyConfig) {
 
 ```js
 // eleventy.config.js
-import bundledComponents from 'eleventy-plugin-bundled-components';
+import bundledComponents from 'eleventy-plugin-components-bundler';
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(bundledComponents, {
@@ -87,7 +87,7 @@ export default function (eleventyConfig) {
 
 ```js
 // eleventy.config.js
-import bundledComponents from 'eleventy-plugin-bundled-components';
+import bundledComponents from 'eleventy-plugin-components-bundler';
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(bundledComponents, {
@@ -112,7 +112,7 @@ export default function (eleventyConfig) {
 
 ```js
 // eleventy.config.js
-import bundledComponents from 'eleventy-plugin-bundled-components';
+import bundledComponents from 'eleventy-plugin-components-bundler';
 import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
 
@@ -338,7 +338,7 @@ Configure validation behavior in plugin options:
 
 ```js
 // eleventy.config.js
-import bundledComponents from 'eleventy-plugin-bundled-components';
+import bundledComponents from 'eleventy-plugin-components-bundler';
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(bundledComponents, {
@@ -423,7 +423,7 @@ Eleventy:bundled-components Wrote JS to assets/main.js (1892 bytes)
 
 ```js
 // eleventy.config.js
-import bundledComponents from 'eleventy-plugin-bundled-components';
+import bundledComponents from 'eleventy-plugin-components-bundler';
 import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
 import postcssCustomMedia from 'postcss-custom-media';
@@ -449,7 +449,7 @@ export default function (eleventyConfig) {
 
 ```js
 // eleventy.config.js
-import bundledComponents from 'eleventy-plugin-bundled-components';
+import bundledComponents from 'eleventy-plugin-components-bundler';
 import postcssNested from 'postcss-nested';
 import autoprefixer from 'autoprefixer';
 
@@ -525,7 +525,7 @@ When `minifyOutput: true` is set:
 
 ```js
 // eleventy.config.js
-import bundledComponents from 'eleventy-plugin-bundled-components';
+import bundledComponents from 'eleventy-plugin-components-bundler';
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(bundledComponents, {
@@ -586,9 +586,9 @@ Portions of this project were developed with the assistance of AI tools includin
 
 All AI-assisted code has been reviewed and tested to ensure it meets project standards. See the included [CLAUDE.md](CLAUDE.md) file for more details.
 
-[npm-badge]: https://img.shields.io/npm/v/eleventy-plugin-bundled-components.svg
-[npm-url]: https://www.npmjs.com/package/eleventy-plugin-bundled-components
-[license-badge]: https://img.shields.io/github/license/wernerglinka/eleventy-plugin-bundled-components
+[npm-badge]: https://img.shields.io/npm/v/eleventy-plugin-components-bundler.svg
+[npm-url]: https://www.npmjs.com/package/eleventy-plugin-components-bundler
+[license-badge]: https://img.shields.io/github/license/wernerglinka/eleventy-plugin-components-bundler
 [license-url]: LICENSE
 [coverage-badge]: https://img.shields.io/badge/test%20coverage-96%25-brightgreen
 [coverage-url]: #test-coverage
