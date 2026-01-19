@@ -44,6 +44,12 @@ import bundledComponents from 'eleventy-plugin-bundled-components';
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(bundledComponents);
+  // Uses default paths:
+  //   basePath:     'src/_includes/components/_partials'  (buttons, cards, etc.)
+  //   sectionsPath: 'src/_includes/components/sections'   (hero, banner, etc.)
+  //   layoutsPath:  'src/_includes/layouts'               (for template scanning)
+  //   cssDest:      'assets/main.css'                     (bundled output)
+  //   jsDest:       'assets/main.js'                      (bundled output)
 
   return {
     dir: {
