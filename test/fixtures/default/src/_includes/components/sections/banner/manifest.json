@@ -1,0 +1,6 @@
+{
+  "name": "banner",
+  "styles": ["banner.css"],
+  "scripts": ["banner.js"],
+  "requires": ["button"]
+}

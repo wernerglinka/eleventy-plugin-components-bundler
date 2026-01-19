@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  {% include "components/sections/banner/banner.njk" %}
+  {{ content | safe }}
+  <script src="/assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.banner {
+  padding: 2rem;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

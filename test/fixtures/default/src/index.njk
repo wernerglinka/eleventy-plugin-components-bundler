@@ -1,0 +1,21 @@
+---
+title: Test Page
+sections:
+  - sectionType: banner
+    title: Welcome
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  {% include "components/sections/banner/banner.njk" %}
+  <main>
+    <p>Test page content</p>
+  </main>
+  <script src="/assets/main.js"></script>
+</body>
+</html>

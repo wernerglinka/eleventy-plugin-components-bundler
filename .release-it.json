@@ -1,0 +1,21 @@
+{
+  "github": {
+    "release": true,
+    "releaseName": "${name} v${version}",
+    "web": true,
+    "tokenRef": "GH_TOKEN"
+  },
+  "git": {
+    "commitMessage": "Release ${version}",
+    "tagAnnotation": "Release ${version}",
+    "changelog": "npx auto-changelog -u --commit-limit false --ignore-commit-pattern '^((dev|chore|ci):|Release)' --stdout"
+  },
+  "hooks": {
+    "before:init": ["npm test"],
+    "after:bump": "npx auto-changelog -p --commit-limit false --ignore-commit-pattern '^((dev|chore|ci):|Release)' && git add CHANGELOG.md",
+    "after:release": "echo Successfully released ${name} v${version} and created GitHub release."
+  },
+  "npm": {
+    "publish": false
+  }
+}

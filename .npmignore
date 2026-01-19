@@ -1,0 +1,22 @@
+# Test files
+test/
+coverage/
+
+# Development files
+.git/
+.github/
+.gitignore
+.vscode/
+.idea/
+.claude/
+scripts/
+DEV-NOTES/
+
+# Documentation (keep README.md and LICENSE)
+CLAUDE.md
+
+# Config files
+.editorconfig
+.release-it.json
+eslint.config.js
+prettier.config.js
